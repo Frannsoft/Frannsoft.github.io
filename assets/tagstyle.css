@@ -40,7 +40,7 @@
 }
 
 .tag::after {
-  background: #fff;
+  background: #f5f5f5;
   border-bottom: 13px solid transparent;
   border-left: 10px solid #eee;
   border-top: 13px solid transparent;
