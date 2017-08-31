@@ -1,0 +1,21 @@
+{
+  "name": "frannsoft.github.io",
+  "version": "1.0.0",
+  "description": "Github pages site",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frannsoft/frannsoft.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/frannsoft/frannsoft.github.io/issues"
+  },
+  "homepage": "https://github.com/frannsoft/frannsoft.github.io#readme"
+}

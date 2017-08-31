@@ -1,8 +1,31 @@
 ---
-layout: default
-title: Hank Quinlan, Horrible Cop
+layout: default 
+title: Rhythms In Circuits 
 ---
-<div class="blurb">
-	<h1>Hi there, I'm Hank Quinlan!</h1>
-	<p>I'm best known as the horrible cop from <em>A Touch of Evil</em> Don't trust me. <a href="/about">Read more about my life...</a></p>
-</div><!-- /.blurb -->
+
+<main class="page-content" aria-label="Content">
+    <div class="wrapper">
+        <div class="home">
+            <div class="blurb">
+                <ul class="list-group">
+                    {% for post in site.posts %}
+                        <h2 class="posttitle">
+                        <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+                        </h2>
+                    <div>
+                        <div class="date">{{ post.date | date_to_string }}</div>&nbsp;
+                        {% for tag in post.tags %}
+                        <div class="badge"> {{ tag }} </div>
+                        {% endfor %}
+                    </div>
+                    <br/>
+                        {{ post.content }}
+                        <hr/>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+
+    </div>
+    
+</main>
