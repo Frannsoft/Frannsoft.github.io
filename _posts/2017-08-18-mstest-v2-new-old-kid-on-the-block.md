@@ -9,7 +9,8 @@ It's been a long time since MSTest was in discussions of modern testing framewor
 Please note, this post will cover features that are currently in `pre-release` for the MSTest v2 NuGet package.  
 
 **NOTE**: Remember to use the `pre-release` flag with the NuGet package you will be using:
-- [MSTest.Framework](https://www.nuget.org/packages/MSTest.TestFramework/1.2.0-beta).
+- [MSTest.Framework](https://www.nuget.org/packages/MSTest.TestFramework/1.2.0-beta)
+- [MSTest.TestAdapter](https://www.nuget.org/packages/MSTest.TestAdapter/1.2.0-beta)
 
 Visual Studio 2015+ is also recommended; your mileage may vary with 2013.
 
