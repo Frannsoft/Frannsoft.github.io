@@ -21,7 +21,7 @@ This seems relatively simple for straightforward tests.  While maybe not an ultr
 
 These tests can be executed in the browser and are backed by code in a similar fashion to SpecFlow.  Users don't need to install anything at all in order to get started; only go to a url.
 
-Recently, I came across a scenario where a small suite of these tables were being used to verify data coming from a 3rd party vendor.  These tests were necessary as we need to make sure our data arrives in the expected format and expected value.  
+Recently, I came across a scenario where a small suite of these tables were being used to verify data coming from an external service.  These tests were necessary as we need to make sure our data arrives in the expected format and expected value.  
 
 The problem was some of these FitNesse tables had over 90 columns.  This reduces the readability of the tests to almost zero since the only way someone reading the results could find a specific failure is manually searching the results or CTRL+F on the results page.  Any web page with a 90+ column table isn't navigable using this format.   
 
